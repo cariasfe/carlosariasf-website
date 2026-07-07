@@ -5,7 +5,7 @@ import { books } from "@/data/books"
 export default function BooksPage() {
   return (
     <div>
-      <PageBanner title="Books" />
+      <PageBanner title="Books" focusY="85%" />
       <BookGrid items={books} />
     </div>
   )

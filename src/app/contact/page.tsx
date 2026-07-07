@@ -4,7 +4,7 @@ import { siteConfig } from "@/data/site"
 export default function ContactPage() {
   return (
     <div className="space-y-6">
-      <PageBanner title="Contact" />
+      <PageBanner title="Contact" focusY="5%" />
       <p className="text-zinc-300">
         I&apos;m always looking for new and exciting opportunities.
         Let&apos;s connect.

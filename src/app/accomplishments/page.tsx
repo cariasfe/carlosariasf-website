@@ -5,7 +5,7 @@ import { accomplishments } from "@/data/accomplishments"
 export default function AccomplishmentsPage() {
   return (
     <div>
-      <PageBanner title="Career Accomplishments" />
+      <PageBanner title="Career Accomplishments" focusY="35%" />
       <p className="mb-8 text-zinc-300">
         Here, you&apos;ll find a showcase of my career accomplishments. Each
         accomplishment represents a unique blend of creativity, expertise,

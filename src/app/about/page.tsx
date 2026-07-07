@@ -4,7 +4,7 @@ import { bioParagraphs, keySkills, qaItems } from "@/data/about"
 export default function AboutPage() {
   return (
     <div className="space-y-8">
-      <PageBanner title="About Me" />
+      <PageBanner title="About Me" focusY="25%" />
 
       <p className="-mt-4 text-sm uppercase tracking-wide text-cyan-400">
         My Executive Bio

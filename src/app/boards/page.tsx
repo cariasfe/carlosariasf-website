@@ -5,7 +5,7 @@ import { boards } from "@/data/boards"
 export default function BoardsPage() {
   return (
     <div>
-      <PageBanner title="Volunteering & Leadership" />
+      <PageBanner title="Volunteering & Leadership" focusY="70%" />
       <div className="space-y-10">
         {boards.map((entry, i) => (
           <div

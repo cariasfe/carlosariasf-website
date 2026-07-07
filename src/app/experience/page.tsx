@@ -5,7 +5,7 @@ import { experience } from "@/data/experience"
 export default function ExperiencePage() {
   return (
     <div>
-      <PageBanner title="Experience" />
+      <PageBanner title="Experience" focusY="15%" />
       <ExperienceTimeline entries={experience} />
     </div>
   )
