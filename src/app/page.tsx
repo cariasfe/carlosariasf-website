@@ -76,6 +76,18 @@ export default function HomePage() {
           around true value creation, and transforming product
           organizations into engines of continuous innovation.
         </p>
+        <p>
+          Today, I&apos;m extending these principles into the era of
+          agentic AI. The next edge in product management comes from
+          combining Cagan&apos;s foundational discipline — customer
+          discovery, empowered teams, outcome-driven organizations — with
+          the emerging practices of agentic AI and AI-native operating
+          systems. I&apos;m building toward a future where AI doesn&apos;t
+          just assist the product lifecycle but actively orchestrates
+          it—automating routine execution so product teams can focus on
+          the judgment, taste, and accountability that AI can&apos;t
+          replace.
+        </p>
       </div>
 
       <a
