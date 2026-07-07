@@ -3,30 +3,41 @@ import Image from "next/image"
 export default function HomePage() {
   return (
     <div className="space-y-8">
-      <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
+      <div className="relative h-64 overflow-hidden rounded-lg border border-zinc-800 sm:h-72">
         <Image
-          src="/profile.jpg"
-          alt="Carlos Arias"
-          width={160}
-          height={160}
-          className="rounded-full border border-zinc-800 object-cover"
+          src="/bookshelf.jpg"
+          alt="Carlos's bookshelf"
+          fill
           priority
+          className="object-cover"
         />
-        <div>
-          <h1 className="text-3xl font-bold text-zinc-100">Carlos Arias</h1>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {[
-              "Product Management Leader",
-              "Data Analytics & AI Solutions Pioneer",
-              "Exceptional Driver of Growth in New Ventures",
-            ].map((tag) => (
-              <span
-                key={tag}
-                className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400"
-              >
-                {tag}
-              </span>
-            ))}
+        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/85 to-zinc-950/30" />
+
+        <div className="absolute bottom-0 left-0 flex w-full flex-col items-start gap-4 p-6 sm:flex-row sm:items-center">
+          <Image
+            src="/profile.jpg"
+            alt="Carlos Arias"
+            width={96}
+            height={96}
+            className="rounded-full border-2 border-zinc-800 object-cover"
+            priority
+          />
+          <div>
+            <h1 className="text-3xl font-bold text-zinc-100">Carlos Arias</h1>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {[
+                "Product Management Leader",
+                "Data Analytics & AI Solutions Pioneer",
+                "Exceptional Driver of Growth in New Ventures",
+              ].map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full border border-zinc-700 bg-zinc-950/60 px-3 py-1 text-xs text-zinc-300"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
