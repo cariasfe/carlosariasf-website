@@ -1,0 +1,19 @@
+# Carlos Arias
+
+Personal website of Carlos Arias, Senior Director of Product Management at Precisely.
+
+## About
+Product management leader with 18+ years in technology innovation, AI/ML product strategy, and digital transformation.
+
+## Pages
+- / — Home
+- /experience — Career history
+- /accomplishments — Key achievements
+- /education — Degrees and certifications
+- /boards — Board memberships
+- /about — Biography and philosophy
+- /books — Reading list
+- /contact — Contact links
+
+## Contact
+LinkedIn: https://linkedin.com/in/cariasf/

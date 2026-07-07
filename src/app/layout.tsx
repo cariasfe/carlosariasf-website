@@ -17,6 +17,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: siteConfig.name,
+              jobTitle: "Senior Director, Product Management",
+              worksFor: { "@type": "Organization", name: "Precisely" },
+              url: "https://carlosariasf.com",
+              sameAs: [
+                siteConfig.social.linkedin,
+                siteConfig.social.twitter,
+                siteConfig.social.facebook,
+              ],
+              alumniOf: [
+                "Kellogg School of Management, Northwestern University",
+                "MIT Sloan School of Management",
+                "Universidad Carlos III de Madrid",
+              ],
+            }),
+          }}
+        />
         <Nav />
         <main className="mx-auto min-h-screen max-w-4xl px-6 py-12">
           {children}
