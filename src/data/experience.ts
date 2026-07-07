@@ -21,7 +21,7 @@ export const experience: ExperienceEntry[] = [
     website: "https://www.precisely.com/",
     paragraphs: [
       "Lead the Data Integration product portfolio at Precisely, spanning three product lines: Precisely Connect (CDC/ETL, on-premises), Ironstream (real-time mainframe-to-cloud streaming for IBM Z and IBM i), and the Data Integration Suite (hybrid SaaS). Manage a cross-functional product team of 5 across product management and product ownership roles.",
-      "Building an AI-orchestrated operating system for the product management lifecycle — a shared automation layer that enforces git branch discipline and safety rules across the three independent product-line repositories, generates each team member's task view from a shared task store, and gives the team a library of reusable PM/engineering skills (spec writing, hostile review, metrics review) without duplicating setup per repo.",
+      "Building the Intelligence Layer — an AI-orchestrated operating system for the product management lifecycle, designed to scale beyond my own product lines to automate and support Product Management practices company-wide. It enforces shared engineering and process discipline (branch hygiene, safety rules) across independent product-line repositories, centralizes task and context management, and gives teams a reusable library of PM/engineering skills (spec writing, hostile review, metrics review) without duplicating setup per team.",
     ],
   },
   {
