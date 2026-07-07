@@ -30,9 +30,12 @@ export default function AboutPage() {
         {keySkills}
       </p>
 
-      <div className="space-y-8 border-t border-zinc-800 pt-8">
+      <div className="space-y-6">
         {qaItems.map((item) => (
-          <div key={item.question}>
+          <div
+            key={item.question}
+            className="rounded-lg border border-zinc-800 p-6"
+          >
             <h2 className="mb-2 text-lg font-semibold text-zinc-100">
               {item.question}
             </h2>
@@ -40,7 +43,10 @@ export default function AboutPage() {
             {item.subItems && (
               <div className="mt-3 space-y-4">
                 {item.subItems.map((sub) => (
-                  <div key={sub.heading}>
+                  <div
+                    key={sub.heading}
+                    className="rounded border border-zinc-900 bg-zinc-950/50 p-4"
+                  >
                     <h3 className="font-medium text-cyan-400">
                       {sub.heading}
                     </h3>

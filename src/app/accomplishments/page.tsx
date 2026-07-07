@@ -12,7 +12,7 @@ export default function AccomplishmentsPage() {
         accomplishment represents a unique blend of creativity, expertise,
         and business acumen reflecting my commitment to excellence.
       </p>
-      <div className="space-y-6">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {accomplishments.map((item) => (
           <AccomplishmentCard key={item.title} item={item} />
         ))}

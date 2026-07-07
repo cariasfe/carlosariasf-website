@@ -3,6 +3,7 @@ export interface Accomplishment {
   role?: string
   paragraph: string
   patent?: string
+  patentFile?: string
 }
 
 export const accomplishments: Accomplishment[] = [
@@ -12,6 +13,7 @@ export const accomplishments: Accomplishment[] = [
     paragraph:
       "As Senior Director of Product Management at Sandvine, I lead a team focused on developing and implementing strategic vision and new product initiatives around data, analytics, and AI/ML services. I have been instrumental in disrupting network capacity planning with a patented QoE-based data & analytics framework, leveraging ML/AI data models to deliver 2-5% CapEx/OpEx savings in Telco. Moreover, our solutions enriched Telco's Big Data teams with innovative AI-based traffic classification and QoE data to unlock new optimization and monetization AI-based services.",
     patent: "Patent k8002653",
+    patentFile: "/patent-k8002653.pdf",
   },
   {
     title: "Transformed S&M Program to Increase Company's Valuation",

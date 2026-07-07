@@ -12,10 +12,23 @@ export default function HomePage() {
           className="rounded-full border border-zinc-800 object-cover"
           priority
         />
-        <h1 className="text-3xl font-bold text-zinc-100">
-          Carlos Arias | Product Management Leader | Data Analytics & AI
-          Solutions Pioneer | Exceptional Driver of Growth in New Ventures
-        </h1>
+        <div>
+          <h1 className="text-3xl font-bold text-zinc-100">Carlos Arias</h1>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {[
+              "Product Management Leader",
+              "Data Analytics & AI Solutions Pioneer",
+              "Exceptional Driver of Growth in New Ventures",
+            ].map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="space-y-4 text-zinc-300">
