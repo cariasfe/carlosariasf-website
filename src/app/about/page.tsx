@@ -39,7 +39,11 @@ export default function AboutPage() {
             <h2 className="mb-2 text-lg font-semibold text-zinc-100">
               {item.question}
             </h2>
-            {item.answer && <p className="text-zinc-300">{item.answer}</p>}
+            {item.answer && (
+              <p className="text-sm leading-relaxed text-zinc-400">
+                {item.answer}
+              </p>
+            )}
             {item.subItems && (
               <div className="mt-3 space-y-4">
                 {item.subItems.map((sub) => (
@@ -50,7 +54,9 @@ export default function AboutPage() {
                     <h3 className="font-medium text-cyan-400">
                       {sub.heading}
                     </h3>
-                    <p className="mt-1 text-zinc-300">{sub.text}</p>
+                    <p className="mt-1 text-sm leading-relaxed text-zinc-400">
+                      {sub.text}
+                    </p>
                   </div>
                 ))}
               </div>

@@ -7,6 +7,10 @@ body {
   color: #f4f4f5; /* zinc-100 */
 }
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

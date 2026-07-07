@@ -23,15 +23,19 @@ export default function BoardsPage() {
               className="w-full rounded-lg border border-zinc-800 object-cover sm:w-56"
             />
             <div>
-              <p className="font-semibold text-zinc-100">
+              <p className="text-lg font-semibold text-zinc-100">
                 {entry.organization}
               </p>
               <p className="text-sm text-zinc-500">
                 Board Member ({entry.dates})
               </p>
-              <p className="mt-2 text-zinc-300">{entry.description}</p>
+              <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+                {entry.description}
+              </p>
               {entry.extra && (
-                <p className="mt-2 text-zinc-300">{entry.extra}</p>
+                <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+                  {entry.extra}
+                </p>
               )}
             </div>
           </div>

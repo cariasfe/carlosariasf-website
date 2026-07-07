@@ -26,13 +26,15 @@ export default function Timeline({ entries }: { entries: TimelineEntry[] }) {
             />
           )}
           <div>
-            <p className="font-semibold text-zinc-100">
+            <p className="text-lg font-semibold text-zinc-100">
               {entry.organization}
               {entry.role ? ` — ${entry.role}` : ""}
             </p>
             <p className="text-sm text-zinc-500">{entry.dates}</p>
             {entry.description && (
-              <p className="mt-1 text-zinc-300">{entry.description}</p>
+              <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+                {entry.description}
+              </p>
             )}
           </div>
         </li>

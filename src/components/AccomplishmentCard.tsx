@@ -7,7 +7,9 @@ export default function AccomplishmentCard({ item }: { item: Accomplishment }) {
       {item.role && (
         <p className="mb-3 text-sm text-cyan-400">{item.role}</p>
       )}
-      <p className="flex-1 text-zinc-300">{item.paragraph}</p>
+      <p className="flex-1 text-sm leading-relaxed text-zinc-400">
+        {item.paragraph}
+      </p>
       {item.patent && (
         <p className="mt-3 text-sm text-zinc-500">
           {item.patentFile ? (
