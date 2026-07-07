@@ -44,16 +44,22 @@ export default function HomePage() {
 
       <div className="space-y-4 text-zinc-300">
         <p>
-          As a Product Management leader, my approach is grounded in
-          building products customers love, by focusing relentlessly on
-          real user problems, business outcomes, and empowered teams.
-          Drawing inspiration from Marty Cagan&apos;s <em>Inspired</em>, I
-          believe great products emerge from a deep understanding of the
-          customer, constant discovery, and a strong partnership between
-          product, design, and engineering. I strive to create an
-          environment where we prioritize learning fast, iterating
-          quickly, and validating our solutions through real-world
-          feedback.
+          Right now, I&apos;m focused on combining foundational product
+          management discipline with the emerging practices of agentic AI
+          and AI-native operating systems — building toward a future
+          where AI doesn&apos;t just assist the product lifecycle but
+          actively orchestrates it, automating routine execution so
+          product teams can focus on the judgment, taste, and
+          accountability that AI can&apos;t replace.
+        </p>
+        <p>
+          That work builds on a foundation shaped by Marty Cagan. From{" "}
+          <em>Inspired</em>, I believe great products emerge from a deep
+          understanding of the customer, constant discovery, and a strong
+          partnership between product, design, and engineering. I strive
+          to create an environment where we prioritize learning fast,
+          iterating quickly, and validating our solutions through
+          real-world feedback.
         </p>
         <p>
           From <em>Empowered</em>, I&apos;ve embraced the principle that
@@ -75,18 +81,6 @@ export default function HomePage() {
           can thrive. My focus is always on scaling sustainably, aligning
           around true value creation, and transforming product
           organizations into engines of continuous innovation.
-        </p>
-        <p>
-          Today, I&apos;m extending these principles into the era of
-          agentic AI. The next edge in product management comes from
-          combining Cagan&apos;s foundational discipline — customer
-          discovery, empowered teams, outcome-driven organizations — with
-          the emerging practices of agentic AI and AI-native operating
-          systems. I&apos;m building toward a future where AI doesn&apos;t
-          just assist the product lifecycle but actively orchestrates
-          it—automating routine execution so product teams can focus on
-          the judgment, taste, and accountability that AI can&apos;t
-          replace.
         </p>
       </div>
 
