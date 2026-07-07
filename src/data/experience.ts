@@ -15,9 +15,19 @@ export interface ExperienceEntry {
 
 export const experience: ExperienceEntry[] = [
   {
+    organization: "Precisely",
+    role: "Senior Director, Product Management",
+    dates: "December 2025 – Present",
+    website: "https://www.precisely.com/",
+    paragraphs: [
+      "Lead the Data Integration product portfolio at Precisely, spanning three product lines: Precisely Connect (CDC/ETL, on-premises), Ironstream (real-time mainframe-to-cloud streaming for IBM Z and IBM i), and the Data Integration Suite (hybrid SaaS). Manage a cross-functional product team of 5 across product management and product ownership roles.",
+      "Building an AI-orchestrated operating system for the product management lifecycle — a shared automation layer that enforces git branch discipline and safety rules across the three independent product-line repositories, generates each team member's task view from a shared task store, and gives the team a library of reusable PM/engineering skills (spec writing, hostile review, metrics review) without duplicating setup per repo.",
+    ],
+  },
+  {
     organization: "Sandvine",
     role: "Senior Director of Product Management",
-    dates: "September 2020 – Present",
+    dates: "September 2020 – November 2025",
     website: "https://www.sandvine.com/",
     paragraphs: [
       "As part of a Private Equity portfolio company, I lead a team that drives and builds strategic vision and new product initiatives around data, analytics, and AI/ML services for network capacity planning and optimization solutions, delivering ideation, vision, go-to-market strategy, and implementation while supporting and enabling engineering, sales & marketing teams. My main responsibility is to lead the introduction of creative solutions and products to the market to address the most critical customer pain points while leading cross-functional changes across the organization to improve innovation and deliver business goals.",
