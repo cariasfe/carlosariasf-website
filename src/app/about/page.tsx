@@ -1,23 +1,14 @@
-import Image from "next/image"
+import PageBanner from "@/components/PageBanner"
 import { bioParagraphs, keySkills, qaItems } from "@/data/about"
 
 export default function AboutPage() {
   return (
     <div className="space-y-8">
-      <Image
-        src="/about-banner.jpg"
-        alt="Carlos Arias"
-        width={1280}
-        height={300}
-        className="w-full rounded-lg border border-zinc-800 object-cover"
-      />
+      <PageBanner title="About Me" />
 
-      <div>
-        <h1 className="text-2xl font-bold text-zinc-100">About Me</h1>
-        <p className="mt-1 text-sm uppercase tracking-wide text-cyan-400">
-          My Executive Bio
-        </p>
-      </div>
+      <p className="-mt-4 text-sm uppercase tracking-wide text-cyan-400">
+        My Executive Bio
+      </p>
 
       <div className="space-y-4 text-zinc-300">
         {bioParagraphs.map((p, i) => (

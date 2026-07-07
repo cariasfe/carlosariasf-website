@@ -1,12 +1,11 @@
 import Image from "next/image"
+import PageBanner from "@/components/PageBanner"
 import { boards } from "@/data/boards"
 
 export default function BoardsPage() {
   return (
     <div>
-      <h1 className="mb-8 text-2xl font-bold text-zinc-100">
-        Volunteering &amp; Leadership
-      </h1>
+      <PageBanner title="Volunteering & Leadership" />
       <div className="space-y-10">
         {boards.map((entry, i) => (
           <div

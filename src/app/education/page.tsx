@@ -1,10 +1,11 @@
 import Timeline from "@/components/Timeline"
+import PageBanner from "@/components/PageBanner"
 import { education } from "@/data/education"
 
 export default function EducationPage() {
   return (
     <div>
-      <h1 className="mb-8 text-2xl font-bold text-zinc-100">Education</h1>
+      <PageBanner title="Education" />
       <Timeline entries={education} />
     </div>
   )
